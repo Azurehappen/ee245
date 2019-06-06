@@ -34,7 +34,7 @@ if __name__ == '__main__':
     for th in theta:
         augm = np.array([r-r*np.cos(th),0,r*np.sin(th)]).reshape(3,1)
         goal = org + R_bs.dot(augm).reshape(3)
-        print(goal)
+        #print(goal)
         cf.cmdPosition(list(np.round(goal,3)),yaw=0)
         time.sleep(0.1)
     cf.cmdPosition(org,yaw=0)
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     for th in theta:
         augm = np.array([r*np.cos(th)-r,0,r*np.sin(th)]).reshape(3,1)
         goal = org + R_bs.dot(augm).reshape(3)
-        print(goal)
+        #print(goal)
         cf.cmdPosition(list(np.round(goal,3)),yaw=0)
         time.sleep(0.1)
     cf.cmdPosition(org,yaw=0)
