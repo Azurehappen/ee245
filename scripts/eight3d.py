@@ -27,7 +27,7 @@ if __name__ == '__main__':
 
     # FILL IN YOUR CODE HERE
     # Please try both goTo and cmdPosition
-    r,num=0.5,72
+    r,num=0.4,72
     theta = np.array(range(num-1)).astype(float)*2*np.pi/num
     org = np.array([0,1.5,1])
     #R_bs = np.array([[0.933,0.3491,-0.0871],[-0.25,0.803,0.541],[0.2588,-0.483,0.8365]])

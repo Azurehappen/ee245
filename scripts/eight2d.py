@@ -22,7 +22,7 @@ if __name__ == '__main__':
 
     # FILL IN YOUR CODE HERE
     # Please try both goTo and cmdPosition
-    r,num=0.5,72
+    r,num=0.4,72
     theta = np.array(range(num-1)).astype(float)*2*np.pi/num
     org = np.array([0,1.5,1])
     for th in theta:
